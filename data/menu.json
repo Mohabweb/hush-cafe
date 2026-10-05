@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "id": "desserts",
+      "items": [
+        { "id": "carrot-cake", "en": "Carrot Cake", "ar": "كيك الجزر", "price": 112 },
+        { "id": "honey-cake", "en": "Honey Cake Classic", "ar": "كيك العسل الكلاسيك", "price": 97 },
+        { "id": "tiramisu", "en": "Tiramisu Cake", "ar": "تيراميسو", "price": 109 },
+        { "id": "trafel", "en": "Trafel Cake", "ar": "ترايفل كيك", "price": 109 },
+        { "id": "matelda", "en": "Matelda Cake", "ar": "ماتيلدا كيك", "price": 114 },
+        { "id": "eclair-nutella-kinder", "en": "Eclair Nuttekka-Kinder", "ar": "إكلير نوتيلا وكيندر", "price": 80 },
+        { "id": "eclair-pistachio", "en": "Eclair Pistachio", "ar": "إكلير بستاشيو", "price": 86 },
+        { "id": "choc-chunk-cookies", "en": "Chocolate Chunk Cookies", "ar": "كوكيز بقطع الشوكولاتة", "price": 69 },
+        { "id": "english-cake", "en": "English Cake", "ar": "إنجليش كيك", "price": 54 },
+        { "id": "brownies", "en": "Brownies", "ar": "براونيز", "price": 103 },
+        { "id": "san-seb-topping", "en": "San Sebastian Topping", "ar": "سان سباستيان", "price": 143 },
+        { "id": "san-seb-pistachio", "en": "San Sebastian Pistachio", "ar": "سان سباستيان بستاشيو", "price": 160 }
+      ]
+    },
+    {
+      "id": "croissant",
+      "items": [
+        { "id": "crois-plain", "en": "Plain", "ar": "سادة", "price": 75 },
+        { "id": "crois-turkey", "en": "Smoked Turkey", "ar": "تركي مدخن", "price": 149 },
+        { "id": "crois-salami", "en": "Salami", "ar": "سلامي", "price": 149 },
+        { "id": "crois-feta", "en": "Feta Cheese", "ar": "فيتا وزعتر", "price": 137 },
+        { "id": "crois-mix", "en": "Mix Cheese", "ar": "ميكس جبن", "price": 149 }
+      ]
+    },
+    {
+      "id": "croffle",
+      "items": [
+        { "id": "crof-ferrero", "en": "Ferrero Rocher", "ar": "فريرو روشيه", "price": 143 },
+        { "id": "crof-nutella", "en": "Nutella", "ar": "نوتيلا", "price": 149 },
+        { "id": "crof-pistachio", "en": "Pistachio", "ar": "فستق", "price": 160 },
+        { "id": "crof-white-choc", "en": "White Chocolate", "ar": "شوكولاتة بيضاء", "price": 143 },
+        { "id": "crof-kinder", "en": "Kinder", "ar": "كيندر", "price": 149 },
+        { "id": "crof-turkey", "en": "Smoked Turkey", "ar": "تركي مدخن", "price": 149 },
+        { "id": "crof-feta", "en": "Feta & Zaatar", "ar": "فيتا وزعتر", "price": 137 },
+        { "id": "crof-mix", "en": "Mix Cheese", "ar": "ميكس جبن", "price": 149 },
+        { "id": "crof-salami", "en": "Salami", "ar": "سلامي", "price": 149 }
+      ]
+    },
+    {
+      "id": "sandwich",
+      "items": [
+        {
+          "id": "sand-smoked-chicken",
+          "en": "Smoked Chicken",
+          "ar": "دجاج مدخن",
+          "descEn": "Chicken breast with cheddar sauce on oat bread.",
+          "descAr": "قطع صدور فراخ مع صوص الشيدر وعيش الشوفان",
+          "price": 166
+        },
+        {
+          "id": "sand-moroccan",
+          "en": "Moroccan Chicken",
+          "ar": "دجاج موروكان",
+          "descEn": "Smoked chicken breast with vegetables on white Vienna bread.",
+          "descAr": "قطع صدور فراخ مدخنة مع خضار وعيش فيينا الأبيض",
+          "price": 171
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "items": [
+        { "id": "esp", "en": "Espresso", "ar": "إسبريسو", "price": 63 },
+        { "id": "mac", "en": "Macchiato", "ar": "ماكياتو", "price": 69 },
+        { "id": "corto", "en": "Corto Classic", "ar": "كورتو كلاسيك", "price": 90 },
+        { "id": "capp", "en": "Cappuccino", "ar": "كابتشينو", "price": 92 },
+        { "id": "latte", "en": "Café Latte", "ar": "كافيه لاتيه", "price": 97 },
+        { "id": "flat", "en": "Flat White", "ar": "فلات وايت", "price": 103 },
+        { "id": "carm-mac", "en": "Caramel Macchiato", "ar": "كراميل ماكياتو", "price": 120 },
+        { "id": "spanish", "en": "Spanish Latte", "ar": "سبانش لاتيه", "price": 109 },
+        { "id": "mocha", "en": "Mocha \"White-Dark\"", "ar": "موكا أبيض-داكن", "price": 109 },
+        { "id": "amer", "en": "Americano", "ar": "أمريكانو", "price": 92 }
+      ]
+    },
+    {
+      "id": "iced",
+      "items": [
+        { "id": "iced-latte", "en": "Café Latte", "ar": "كافيه لاتيه", "price": 97 },
+        { "id": "iced-flat", "en": "Flat White", "ar": "فلات وايت", "price": 103 },
+        { "id": "iced-carm-mac", "en": "Caramel Macchiato", "ar": "كراميل ماكياتو", "price": 120 },
+        { "id": "iced-spanish", "en": "Spanish Latte", "ar": "سبانش لاتيه", "price": 109 },
+        { "id": "iced-mocha", "en": "Mocha \"White-Dark\"", "ar": "موكا أبيض-داكن", "price": 109 },
+        { "id": "iced-amer", "en": "Americano", "ar": "أمريكانو", "price": 92 }
+      ]
+    },
+    {
+      "id": "winter",
+      "items": [
+        { "id": "win-caramel", "en": "Caramel Cinnamon Latte", "ar": "كراميل قرفة لاتيه", "price": 135 },
+        { "id": "win-vanilla", "en": "Vanilla Cinnamon Latte", "ar": "فانيليا قرفة لاتيه", "price": 135 },
+        { "id": "win-cinnamon-roll", "en": "Cinnamon Roll Latte", "ar": "سينامون رول لاتيه", "price": 135 },
+        { "id": "win-irish", "en": "Irish Latte", "ar": "آيرش لاتيه", "price": 125 }
+      ]
+    },
+    {
+      "id": "turkish",
+      "items": [
+        { "id": "trk-s", "en": "Turkish Coffee S", "ar": "قهوة تركية سينجل", "price": 55 },
+        { "id": "trk-d", "en": "Turkish Coffee D", "ar": "قهوة تركية دبل", "price": 65 },
+        { "id": "french", "en": "French Coffee", "ar": "قهوة فرنسية", "price": 70 },
+        { "id": "nutella-coffee", "en": "Nutella Coffee", "ar": "قهوة نوتيلا", "price": 86 }
+      ]
+    },
+    {
+      "id": "noncoffee",
+      "note": "Prices are S / M",
+      "items": [
+        { "id": "hc", "en": "Hot Chocolate", "ar": "هوت شوكليت", "priceS": 105, "priceM": 120 },
+        { "id": "hc-oreo", "en": "Hot Chocolate Oreo", "ar": "هوت شوكليت أوريو", "priceS": 115, "priceM": 135 },
+        { "id": "hc-popcorn", "en": "Hot Chocolate Popcorn", "ar": "هوت شوكليت فشار", "priceS": 125, "priceM": 145 },
+        { "id": "hc-cookies", "en": "Hot Chocolate Cookies", "ar": "هوت شوكليت كوكيز", "priceS": 125, "priceM": 145 },
+        { "id": "hc-marsh", "en": "Hot Chocolate Marshmallow", "ar": "هوت شوكليت مارشميلو", "priceS": 120, "priceM": 140 },
+        { "id": "pistachio-cream", "en": "Pistachio Cream", "ar": "كريمة الفستق", "priceS": 125, "priceM": 145 }
+      ]
+    },
+    {
+      "id": "refreshments",
+      "items": [
+        { "id": "shake-vcc", "en": "Vanilla / Chocolate / Caramel Milk Shake", "ar": "ميلك شيك فانيليا / شوكولاتة / كراميل", "price": 115 },
+        { "id": "shake-bsk", "en": "Blueberry / Strawberry / Kiwi Milk Shake", "ar": "ميلك شيك توت / فراولة / كيوي", "price": 125 },
+        { "id": "shake-nc", "en": "Nutella / Cookies Milk Shake", "ar": "ميلك شيك نوتيلا / كوكيز", "price": 135 },
+        { "id": "moj-fruit", "en": "Blueberry / Passion Fruit / Kiwi / Peach / Strawberry Mojito", "ar": "موهيتو توت / باشن فروت / كيوي / خوخ / فراولة", "price": 109 },
+        { "id": "moj-rb", "en": "Red Bull Mojito", "ar": "موهيتو ريد بول", "price": 95 },
+        { "id": "juice-mango", "en": "Mango", "ar": "مانجو", "price": 97 },
+        { "id": "juice-straw", "en": "Strawberry", "ar": "فراولة", "price": 92 },
+        { "id": "juice-orange", "en": "Orange", "ar": "برتقال", "price": 92 },
+        { "id": "tea-black", "en": "Black Tea", "ar": "شاي أسود", "descEn": "Hot only.", "descAr": "ساخن فقط", "price": 55 },
+        { "id": "tea-passion", "en": "Passion Fruit Tea", "ar": "شاي باشن فروت", "priceHot": 70, "priceIced": 120 },
+        { "id": "tea-peach", "en": "Peach Tea", "ar": "شاي خوخ", "priceHot": 70, "priceIced": 120 },
+        { "id": "tea-mango", "en": "Mango Tea", "ar": "شاي مانجو", "priceHot": 70, "priceIced": 120 }
+      ]
+    },
+    {
+      "id": "addons",
+      "items": [
+        { "id": "add-flavor", "en": "Flavor", "ar": "نكهة", "price": 25 },
+        { "id": "add-espresso", "en": "Espresso", "ar": "جرعة إسبريسو", "price": 25 },
+        { "id": "add-milk", "en": "Milk", "ar": "حليب", "price": 25 },
+        { "id": "add-cream", "en": "Whipped Cream", "ar": "كريمة مخفوقة", "price": 35 },
+        { "id": "add-sauce", "en": "Sauce", "ar": "صوص شوكولاتة / كراميل", "price": 25 },
+        { "id": "add-topping", "en": "Topping", "ar": "كيندر / بستاشيو / نوتيلا", "price": 40 },
+        { "id": "add-alt-milk", "en": "Almond or Coconut Milk", "ar": "حليب لوز أو جوز هند", "price": 50 }
+      ]
+    }
+  ]
+}

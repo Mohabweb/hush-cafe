@@ -1,0 +1,38 @@
+{
+  "name": "Hush Café",
+  "phone": "01095743915",
+  "phoneIntl": "+201095743915",
+  "whatsapp": "201095743915",
+  "instagram": "https://www.instagram.com/hush__eg/",
+  "instagramHandle": "@hush__eg",
+  "email": "",
+  "openingHours": {
+    "todo": "Fill in actual opening hours here, then update schemaHours.",
+    "placeholder": true,
+    "en": "Opening hours — to be announced",
+    "ar": "مواعيد العمل — سيتم الإعلان عنها",
+    "schemaHours": []
+  },
+  "branches": [
+    {
+      "id": "camp-chezar",
+      "en": "Camp Chezar",
+      "ar": "كامب شيزار",
+      "addressEn": "Abdel Moneim Gaber Complex, Camp Chezar, Corniche Road, Al Ibrahimeyah Bahri WA Sidi Gaber, Bab Shar', Alexandria 21525",
+      "addressAr": "مجمع عبد المنعم جابر، كامب شيزار، طريق الكورنيش، الإبراهيمية بحري وسيدي جابر، باب شرق، الإسكندرية ٢١٥٢٥",
+      "plusCode": "6W79+7CH",
+      "mapQuery": "6W79+7CH Alexandria",
+      "mapEmbed": "https://www.google.com/maps?q=6W79%2B7CH&output=embed"
+    },
+    {
+      "id": "el-horeya",
+      "en": "El-Horeya Road",
+      "ar": "طريق الحرية",
+      "addressEn": "El-Horeya Rd, Al Mesallah Sharq, Al Attarin, Alexandria 5372054",
+      "addressAr": "طريق الحرية، المسلة شرق، العطارين، الإسكندرية ٥٣٧٢٠٥٤",
+      "plusCode": "",
+      "mapQuery": "El-Horeya Rd, Al Mesallah Sharq, Al Attarin, Alexandria 5372054",
+      "mapEmbed": "https://www.google.com/maps?q=El-Horeya+Rd,+Al+Mesallah+Sharq,+Al+Attarin,+Alexandria+5372054&output=embed"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hush Café — Alexandria</title>
+    <meta name="description" content="A quiet café in Alexandria. Coffee, croffle, croissant, and desserts in two branches." />
+    <meta name="theme-color" content="#00524F" />
+    <link rel="canonical" href="./" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+    <link rel="icon" type="image/webp" href="images/favicon.webp" />
+    <link rel="apple-touch-icon" href="images/apple-touch.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hush Café — Alexandria" />
+    <meta property="og:description" content="A quiet café in Alexandria. Coffee, croffle, croissant, and desserts in two branches." />
+    <meta property="og:image" content="images/drinks.webp" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_EG" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="images/drinks.webp" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,300&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,300&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="application/ld+json" id="jsonld">{}</script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="orbs" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+    </div>
+    <div class="page">
+      <header>
+        <nav class="nav glass" aria-label="Primary">
+          <a class="logo" href="#top">
+            <img src="images/logo.webp" width="512" height="512" alt="Hush Café" />
+          </a>
+          <ul class="nav-links">
+            <li><a href="#menu" data-i18n="navMenu">Menu</a></li>
+            <li><a href="#gallery" data-i18n="navGallery">Gallery</a></li>
+            <li><a href="#locations" data-i18n="navLocations">Locations</a></li>
+            <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button type="button" class="lang glass" id="lang-btn" data-i18n="langSwitch" data-i18n-aria="langSwitchAria">العربية</button>
+            <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" data-i18n-aria="openMenu" aria-controls="mobile-panel">
+              <span></span>
+            </button>
+          </div>
+          <div class="mobile-panel glass" id="mobile-panel">
+            <a href="#menu" data-i18n="navMenu">Menu</a>
+            <a href="#gallery" data-i18n="navGallery">Gallery</a>
+            <a href="#locations" data-i18n="navLocations">Locations</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="main">
+        <section class="wrap hero js-reveal" id="top">
+          <div class="hero-copy">
+            <h1>HUSH</h1>
+            <p data-i18n="heroTagline">A quiet cup in Alexandria.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#menu" data-i18n="exploreMenu">Explore Menu</a>
+              <a class="btn btn-ghost" href="#locations" data-i18n="findUs">Find Us</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img id="hero-img" src="images/drinks.webp" width="900" height="563" alt="Three iced drinks from Hush Café: a purple lime soda, iced latte, and passion fruit tea" />
+          </div>
+        </section>
+
+        <section class="wrap about js-reveal" id="about" aria-labelledby="about-title">
+          <div>
+            <h2 class="title" id="about-title">
+              <span data-i18n="aboutTitleBold">Stay</span>
+              <span class="light" data-i18n="aboutTitleLight">a while</span>
+            </h2>
+            <p data-i18n="aboutBody">The room is unhurried. Coffee, croffle, and croissant — made slowly. Sit. Hush.</p>
+          </div>
+          <img id="about-img" src="images/tray.webp" width="1100" height="733" alt="A croissant sandwich and a Hush coffee cup on a wooden tray" loading="lazy" />
+        </section>
+
+        <section class="wrap js-reveal" id="menu" aria-labelledby="menu-title">
+          <h2 class="title" id="menu-title">
+            <span data-i18n="menuTitleBold">Our</span>
+            <span class="light" data-i18n="menuTitleLight">Menu</span>
+          </h2>
+          <p class="menu-hint" data-i18n="menuHint">Prices in Egyptian pounds.</p>
+          <div class="tabs" id="tabs" role="tablist"></div>
+          <div class="menu-grid" id="menu-grid"></div>
+        </section>
+
+        <section class="wrap js-reveal" id="gallery" aria-labelledby="gallery-title">
+          <h2 class="title" id="gallery-title">
+            <span data-i18n="galleryTitleBold">The</span>
+            <span class="light" data-i18n="galleryTitleLight">room</span>
+          </h2>
+          <div class="gallery-grid" id="gallery-grid"></div>
+        </section>
+
+        <section class="wrap js-reveal" id="locations" aria-labelledby="locations-title">
+          <h2 class="title" id="locations-title">
+            <span data-i18n="locationsTitleBold">Find</span>
+            <span class="light" data-i18n="locationsTitleLight">us</span>
+          </h2>
+          <div class="locations" id="locations-grid"></div>
+        </section>
+      </main>
+
+      <footer class="wrap" id="contact">
+        <h2 class="title" data-i18n="contactTitle">Hush</h2>
+        <div class="footer-row">
+          <a class="icon-link" id="call-link" href="tel:+201095743915">01095743915</a>
+          <a class="icon-link" id="wa-link" href="https://wa.me/201095743915" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 1 1 8.3 18.9L4 20l1.2-4.1A8.5 8.5 0 0 1 20 11.5zm-8.5 6.7c1.4 0 2.7-.4 3.8-1.1l.3-.2 2.2.6-.6-2.1.2-.3a6.3 6.3 0 1 0-5.9 3.1zm3.5-4.6c-.2-.1-1.1-.5-1.3-.6s-.3-.1-.4.1-.5.6-.6.7-.2.1-.4 0a5.2 5.2 0 0 1-1.5-.9 5.7 5.7 0 0 1-1-1.3c-.1-.2 0-.3.1-.4l.3-.3.1-.2a.4.4 0 0 0 0-.4l-.6-1.4c-.2-.4-.3-.3-.4-.3h-.4a.8.8 0 0 0-.6.3 2.4 2.4 0 0 0-.8 1.8 4.2 4.2 0 0 0 .9 2.2 9.6 9.6 0 0 0 3.7 3.3 4.3 4.3 0 0 0 2.6.6 2.2 2.2 0 0 0 1.5-1 1.8 1.8 0 0 0 .1-1c0-.1-.1-.1-.3-.2z"/></svg>
+            <span data-i18n="whatsapp">WhatsApp</span>
+          </a>
+          <a class="icon-link" id="ig-link" href="https://www.instagram.com/hush__eg/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm10.2 1.3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 8.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6z"/></svg>
+            <span>@hush__eg</span>
+          </a>
+        </div>
+        <p class="copy" data-i18n="copyright">Hush Café, Alexandria.</p>
+      </footer>
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
+      <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+      <div class="lightbox-ui glass">
+        <button type="button" class="lb-close" id="lb-close" data-i18n-aria="closeLightbox">×</button>
+        <button type="button" class="lb-nav lb-prev" id="lb-prev" data-i18n-aria="prevImage">‹</button>
+        <img id="lb-img" alt="" />
+        <button type="button" class="lb-nav lb-next" id="lb-next" data-i18n-aria="nextImage">›</button>
+      </div>
+    </div>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
